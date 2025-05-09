@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr Doom</title>
-</head>
-<body>
-    <h1>Greatest MCU Villian! 😚</h1>
-    
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}Dr Doom 😍{% endblock %}
+{% block content %}
+    <h1>Dr Doom</h1>
+    <p>Welcome to the Dr Doom page!</p>
+    <p>Here you can find all the information about Dr Doom.</p>
+
+    <h2>Dr Doom's Information</h2>
+    <ul>
+        {% for doom in all_drdoom %}
+            <li>{{ doom.name }} - {{ doom.description }}</li>
+        {% endfor %}
+    </ul>
+
+
+
+    <h2>Contact</h2>
+
+    <p>Mat karna. 😧</p>
+
+  
+
+
+{% endblock %}
