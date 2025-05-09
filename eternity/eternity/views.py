@@ -7,7 +7,7 @@ def home(request):
 
 
 def about(request):
-    return HttpResponse("Hello Eternity About Page! ☺️")
+    return render(request, "website/about.html")
 
 
 def contact(request):
