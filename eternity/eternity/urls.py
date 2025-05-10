@@ -25,4 +25,6 @@ urlpatterns = [
     path("contact/", views.contact, name="contact"),
     path("drdoom/", include("drdoom.urls")),
 
+    path("__reload__/" , include("django_browser_reload.urls")),
+
 ]
