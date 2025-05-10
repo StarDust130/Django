@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+{% load static tailwind_tags %}
 {% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
         Dr Doom 😌
         {% endblock %}</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    {% tailwind_css %}
 </head>
 <body>
 
