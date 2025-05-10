@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Static/media files (optional, if generated)
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Tailwind / Node stuff
+node_modules/
+*.css.map
+*.js.map
+*.cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
